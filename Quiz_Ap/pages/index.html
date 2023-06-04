@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="style.css">
+    <title>Quizz Ap</title>
+</head>
+
+<body>
+    <!-- Start Quiz btn -->
+    <div class="start_btn"><button>Start Quiz</button></div>
+
+    <!-- Info Quiz -->
+    <div class="info_box">
+        <div class="info_title">
+            <span>Here are the user stories of the Quiz application:</span>
+        </div>
+        <div class="info_list">
+            <div class="info">1. Users can start the quiz by pressing the "Start" button on the main screen</div>
+            <div class="info">2. Users should be presented with a question and four possible answers on the screen</div>
+            <div class="info">3. After selecting an answer, the app should validate the selection and provide feedback
+                to
+                the user, indicating if the chosen answer is correct or incorrect.</div>
+            <div class="info">4. The app should then display the next question, repeating this process until all the
+                questions in the quiz have been answered.</div>
+            <div class="info">5. At the end of the quiz, the app should present the user with the following statistics:
+                <div class="info_des">
+                    a. The total time the user takes to complete the quiz is displayed in a user-friendly format.
+                </div>
+                <div class="info_des">
+                    b. The number of correct answers the user provided during the quiz.
+                </div>
+                <div class="info_des">
+                    c. A clear message indicating if the user passed or failed the quiz, based on predefined passing
+                    criteria.
+                </div>
+            </div>
+            <div class="info">6. The app should provide an option for users to review their answers after completing the
+                quiz, allowing them to see the correct answers for the questions they answered
+                incorrectly.</div>
+            <div class="info">7. Users should have the ability to replay the quiz or exit the app once the quiz is
+                completed.</div>
+        </div>
+        <div class="button_btn">
+            <button class="exit">Exit Quiz</button>
+            <button class="continue">Continue Quiz</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Quiz App</div>
+            <div class="timer">
+                <div class="time_text">Time Left</div>
+                <div class="time_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- <span>1 + 1 + 1 = ?</span> -->
+            </div>
+            <div class="option_list">
+                <!-- <div class="option">
+                    <span>3</span>
+                    <div class="icon tick">
+                        <i class='fa fa-check-circle-o'></i>
+                    </div>
+                </div>
+                <div class="option">
+                    <span>4</span>
+                    <div class="icon cross">
+                        <i class='fa fa-times-circle-o'></i>
+                    </div>
+                </div>
+                <div class="option">
+                    <span>5</span>
+                    <div class="icon cross">
+                        <i class='fa fa-times-circle-o'></i>
+                    </div>
+                </div>
+                <div class="option">
+                    <span>6</span>
+                    <div class="icon cross">
+                        <i class='fa fa-times-circle-o'></i>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+        <!-- Quiz Box Footer -->
+        <footer>
+            <div class="que_total">
+                <!-- <span>
+                    <p>2</p>Of<p>5</p>Question
+                </span> -->
+            </div>
+            <button class="next_btn">Next Quiz</button>
+        </footer>
+    </div>
+
+    <!-- Result Quiz -->
+    <div class="result_box">
+        <div class="icon">
+            <i class='fas fa-crown'></i>
+        </div>
+        <div class="complete_text">You've Complete Quiz</div>
+        <div class="score_text">
+            <!-- <span>Your Result<p>2</p><p>out of</p>5</span> -->
+        </div>
+        <div class="button_btn">
+            <button class="exit">Relay Quiz</button>
+            <button class="continue">Exit Quiz</button>
+        </div>
+    </div>
+
+</body>
+<script src="/Quiz_Ap/js/quiz.js"></script>
+<script src="/Quiz_Ap/js/question.js"></script>
+
+</html>
